@@ -1,0 +1,31 @@
+/* ====== Google Fonts ====== */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* ====== Global Rulls ====== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --main-color: #111111;
+  --text-color: #666666;
+  --border-color: #ca1515;
+  --btn-color: #ffffff;
+
+  --maim-transition: all .5s;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
